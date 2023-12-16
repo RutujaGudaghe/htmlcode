@@ -68,11 +68,19 @@ border-bottom-left-radius: 1rem;
 }
 /**hhearder**/
 .header-title{
-    padding: 0.5rem 1rem;
-    margin:auto;
+    padding: 1rem 1rem;
     color:var(--primary-color);
+    font-size: xx-large;
+    margin: auto;
+    text-align: center;
 }
+.header-image{
+max-width: 350px;
+display: block;
+margin: auto;
+padding-top: 2rem;
 
+}
 /**sections**/
 .sections h3 {
     text-align: center;
@@ -92,6 +100,10 @@ border-bottom-left-radius: 1rem;
     text-align: center;
     color: white;
     border-bottom-left-radius: 1rem;
+    }
+    .footer .footdata{
+        font-size: largeer;
+        font-weight: bold;
     }
   .footer .link {
     color:white;
