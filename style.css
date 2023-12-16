@@ -54,15 +54,19 @@ list-style: none;
 .list-non-bullet{
     list-style: none;
      }
-.nav-brand{
+.nav{
 background-color: var(--primary-color);
 padding:1rem;
 border-bottom-left-radius: 1rem;
 }
-.navigation .nav-pills{
+.nav-brand{
+    color: white;
+    font-weight:bold;
+}
+.nav-pills{
     text-align: right;
 }
-.nav-brand .link{
+.link{
     color: white;
 
 }
@@ -102,7 +106,7 @@ padding-top: 2rem;
     border-bottom-left-radius: 1rem;
     }
     .footer .footdata{
-        font-size: largeer;
+        font-size: larger;
         font-weight: bold;
     }
   .footer .link {
